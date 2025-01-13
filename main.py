@@ -48,6 +48,7 @@ def toggle_mode():
         style.theme_use("forest-dark")
 
 root = tk.Tk()
+root.resizable(False, False)
 
 style = ttk.Style(root)
 root.tk.call("source", "forest-light.tcl")
